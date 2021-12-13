@@ -30,6 +30,6 @@ void main() {
       }
     }
   } while (answer != guess);
-  print("║               ▼ ❤️THE END  ▼  ❤️");
+  print("║              ▼ ❤️THE END  ▼  ❤️");
   print("╚═════════════════════════════════════════════════════");
 }

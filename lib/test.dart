@@ -19,7 +19,7 @@ void main() {
     } else {
       count++;
       if (answer == guess) {
-        print('║ ➜ $guess CORRECT! ✔, total guesses: $count ✨ ');
+        print('║ ➜ $guess CORRECT! ✔, total guesses: $count ....✨ ');
         print("║─────────────────────────────────────────────────────");
       } else if (answer < guess) {
         print('║ ➜ $guess TOO HIGH! ▲ KEEP TRY AGAIN!');
@@ -30,6 +30,6 @@ void main() {
       }
     }
   } while (answer != guess);
-  print("║                 ♣️THE END  ♣️");
+  print("║               ▼ ❤️THE END  ▼  ❤️");
   print("╚═════════════════════════════════════════════════════");
 }
